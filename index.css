@@ -1,0 +1,53 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.parent{
+    width: 100vw;
+    height: 100vh;
+    background-image: url("bg.webp");
+    background-repeat: no-repeat;
+    background-size: 100vw 110vh;;
+    position: relative;  
+}
+.main{
+position: absolute;
+background-color: #ffefd7;
+height: 61vh;
+width: 55vw;
+border-radius: 50%;
+top: 19vh;
+left: 22vw;
+display: flex;
+flex-direction: column;
+justify-content: space-around;
+align-items: center;
+}
+.intro{
+    font-size: 4vw;
+    font-weight: bold;
+    text-decoration: 2px solid underline;
+}
+.text{
+    height: 25vh;
+    width: 25vw;
+    background-color: #ffefd7;
+    color: black;
+    font-size: large;
+    border: 2px solid#e05d4e;
+    outline: black;
+    text-transform: uppercase;
+    font-size: large;
+}
+.btn{
+    padding: 1vh 2vw;
+    border-radius: 1rem;
+    border:2px solid #e05d4e;
+    background-color: #ffefd7;
+    margin-bottom: 5vh;
+}
+.btn:hover{
+    background-color: rgb(243,216,190);
+    transform: scale(1.2);
+}
